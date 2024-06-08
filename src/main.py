@@ -36,6 +36,7 @@ else:
             #criar nova coluna para extrar a campanha    
             df_temp['campanha'] = df_temp['utm_link'].str.extract(r'utm_campaign=(.*)')
             df_temp['file_name'] = file_name
+            
             #guarda dados tratados de um dataframe 
             df.append(df_temp)
             print(df_temp)
