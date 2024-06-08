@@ -9,7 +9,7 @@ folder_path = 'src\\data\\raw'
 excel_files = glob.glob(os.path.join(folder_path, '*.xlsx'))
 
 if not excel_files:
-    print('Ninhum aquivo encontrado no formato xlsx')
+    print('Nenhum arquivo encontrado no formato xlsx')
 else:
 
     # dataFrame
